@@ -1,4 +1,3 @@
-
 body {
     background-color: wheat;
     font-family: sans-serif;
@@ -11,6 +10,7 @@ body {
 * {
     box-sizing: border-box;
 }
+
 .logo {
     text-align: center;
     padding: 20px;
@@ -76,28 +76,28 @@ a:hover {
 }
 
 a:hover {
-  color: rgb(204, 156, 0);
+    color: rgb(204, 156, 0);
 }
 
 .correcaolinha {
-  clear: both;
+    clear: both;
 }
 
 .linha {
-  border: none;
+    border: none;
     height: 2px;
     background-color: #612f00;
-  }
+}
 
 
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .logo img {
         width: 80%;
         max-width: 400px;
     }
 
     nav ul {
-      flex-direction: column;
+        flex-direction: column;
         list-style: none;
         width: 90%;
         margin: 0 auto;
@@ -108,4 +108,3 @@ a:hover {
         padding: 10px;
     }
 }
-

@@ -106,39 +106,39 @@ h3 {
 /* ajustes responsividade V */
 
 @media screen and (max-width: 768px) {
-    #contato {
-        width: 95%;
-        padding: 10px;
-    }
+  #contato {
+    width: 95%;
+    padding: 10px;
+  }
 
-    .form form {
-        padding: 15px;
-    }
+  .form form {
+    padding: 15px;
+  }
 
-    .form form button {
-        max-width: 100%;
-    }
+  .form form button {
+    max-width: 100%;
+  }
 
-    .redes ul,
-    .empresas ul {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 15px;
-    }
+  .redes ul,
+  .empresas ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
 }
 
 @media screen and (max-width: 480px) {
-    .form h1 {
-        font-size: 1.8rem;
-    }
+  .form h1 {
+    font-size: 1.8rem;
+  }
 
-    .form form input,
-    .form form textarea {
-        font-size: 16px;
-    }
+  .form form input,
+  .form form textarea {
+    font-size: 16px;
+  }
 
-    .form form button {
-        font-size: 16px;
-        padding: 8px;
-    }
+  .form form button {
+    font-size: 16px;
+    padding: 8px;
+  }
 }
