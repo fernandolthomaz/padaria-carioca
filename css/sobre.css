@@ -1,0 +1,117 @@
+.nossa-historia {
+    background-color: rgb(87, 46, 0, 0.7);
+    width: 100%;
+    padding: 10px;
+}
+
+.nossa-historia h1 {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.historia-conteudo {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 60px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.historia-conteudo img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.historia-texto {
+    width: 100%;
+    max-width: 600px;
+    text-indent: 30px;
+    color: white;
+    padding: 20px;
+}
+
+.historia-texto p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.nossos-valores {
+    padding: 10px;
+    text-align: center;
+}
+
+.nossos-valores h2 {
+    color: rgb(87, 46, 0);
+    font-size: 35px;
+    margin-bottom: 60px;
+}
+
+.valores-conteudo {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.equipe-conteudo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.membro {
+    width: 100%;
+    max-width: 300px;
+    padding: 15px;
+}
+
+.membro h3 {
+    color: rgb(126, 40, 0);
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.membro p {
+    font-size: 18px;
+    color: #555;
+}
+
+.valor-card {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.valor-card h3 {
+    color: rgb(126, 40, 0);
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.valor-card p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.equipe {
+    text-align: center;
+    padding: 30px;
+}
+
+.equipe h2 {
+    color: rgb(87, 46, 0);
+    font-size: 35px;
+    margin-bottom: 40px;
+}

@@ -1,0 +1,144 @@
+/* Parte  do trabalho FERNANDO V */
+
+/* Formulário */
+
+#contato {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.form form {
+  background: wheat;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #0000001e;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form form label {
+  text-align: left;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.form form input,
+.form form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1.5px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  resize: none;
+  box-sizing: border-box;
+}
+
+/* botao do formulario */
+.form form button {
+  margin-top: 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  background-color: #691c12;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.4s;
+  width: 100%;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form form button:hover {
+  background-color: #f75b39;
+}
+
+
+/* Lista dos icones das empresas e redes v */
+
+
+.redes ul,
+.empresas ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+.redes li,
+.empresas li {
+  list-style-type: none;
+}
+
+.redes li img,
+.empresas li img {
+  width: 40px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.redes li img:hover,
+.empresas li img:hover {
+  transform: scale(1);
+}
+
+h1 {
+  font-size: 2.4rem;
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-top: 50px;
+}
+
+/* ajustes responsividade V */
+
+@media screen and (max-width: 768px) {
+    #contato {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .form form {
+        padding: 15px;
+    }
+
+    .form form button {
+        max-width: 100%;
+    }
+
+    .redes ul,
+    .empresas ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .form h1 {
+        font-size: 1.8rem;
+    }
+
+    .form form input,
+    .form form textarea {
+        font-size: 16px;
+    }
+
+    .form form button {
+        font-size: 16px;
+        padding: 8px;
+    }
+}
