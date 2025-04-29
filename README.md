@@ -1,7 +1,5 @@
 # Padaria Carioca - Website Oficial
 
-![Logo Padaria Carioca](img/logo1.png)
-
 Website oficial da Padaria Carioca, uma padaria artesanal com tradição desde 1985, localizada no Rio de Janeiro.
 
 > Projeto realizado para fins educacionais e aprendizado
