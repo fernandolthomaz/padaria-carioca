@@ -34,10 +34,10 @@ Este projeto consiste no website institucional da Padaria Carioca, contendo:
 - Novidades e atualizações da padaria
 
 ## 👥 Equipe
-- Gabriel Lessa Santos - Fundador e Mestre Padeiro
-- Evelyn Ferreira Gomes Brum - Confeiteira
-- Fernando Lucas Roza Paradela Thomaz - Gerente e Padeiro
-- Lucas Pocidonio Lima - Atendente
+- Gabriel Lessa - Fundador e Mestre Padeiro
+- Evelyn Ferreira - Confeiteira
+- Fernando Thomaz - Gerente e Padeiro
+- Lucas Pocidonio - Atendente
 
 ## 📄 Licença
 Copyright © 2025 - Padaria Carioca - Todos os direitos reservados
